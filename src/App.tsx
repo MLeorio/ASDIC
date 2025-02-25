@@ -98,7 +98,7 @@ function App() {
         </div>
         <div className="relative z-10 text-center text-white px-4">
           <motion.h1 
-            className="text-4xl md:text-6xl font-bold mb-6"
+            className="text-6xl md:text-8xl font-extrabold mb-6 tracking-tight"
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -111,7 +111,7 @@ function App() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8 }}
           >
-            Action Solidaire pour le Développement des Initiatives Communautaires
+            Actions Solidaires pour le Développement des Initiatives Communautaires
           </motion.p>
           <motion.a 
             href="#about"
