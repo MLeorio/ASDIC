@@ -111,7 +111,7 @@ function App() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8 }}
           >
-            Association Solidaire pour le Développement des Initiatives Communautaires
+            Action Solidaire pour le Développement des Initiatives Communautaires
           </motion.p>
           <motion.a 
             href="#about"
@@ -136,7 +136,7 @@ function App() {
             Ensemble pour un d&eacute;veloppement int&eacute;gral
           </h2>
           <p className="text-lg mb-6">
-            L'association ASDIC s'engage à promouvoir une éducation à la paix, la bonne gouvernance 
+            L'ASDIC s'engage à promouvoir une éducation à la paix, la bonne gouvernance 
             et à assurer au sein des communautés une cohésion sociale et un développement intégral et durable.
           </p>
         </div>
