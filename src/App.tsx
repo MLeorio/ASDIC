@@ -293,7 +293,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <form className="space-y-4">
+            <form className="space-y-4" netlify>
               <div>
                 <label className="block text-sm font-medium mb-2">Nom</label>
                 <input
