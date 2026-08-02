@@ -85,7 +85,6 @@ export const TIMELINE: TimelineEntry[] = [
   import { GraduationCap, Droplets, Sprout, Heart } from 'lucide-react';
   ```
   puis utilisez `icon: Heart` sur l'entrée voulue.
-- Pour ajouter une nouvelle étape, copiez un bloc `{ ... }` et modifiez ses valeurs.
 
 ### 5. Projets `src/data/projects.ts`
 ```ts
