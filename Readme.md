@@ -102,7 +102,6 @@ export const PROJECTS: Project[] = [
 - `cost` : texte libre (ex. `'150,000€'`, `'98 000 000 FCFA'`) écrivez-le exactement comme vous voulez qu'il apparaisse.
 - `progress` : un nombre de 0 à 100 (pourcentage financé, anime la barre de progression).
 - `image` : lien direct vers une image. Vous pouvez utiliser une image d'[Unsplash](https://unsplash.com) (clic droit → copier l'adresse de l'image) ou héberger vos propres photos et coller le lien ici.
-- Pour ajouter un projet, copiez un bloc `{ ... }` entier et modifiez son contenu ; pour en retirer un, supprimez le bloc.
 
 ### 6. Équipe `src/data/team.ts`
 ```ts
