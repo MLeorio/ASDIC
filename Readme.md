@@ -52,7 +52,6 @@ en: {
   ...
 }
 ```
-Ne changez pas les noms à gauche du `:` (ex. `heroTagline`), seulement le texte entre guillemets à droite.
 
 ### 3. Statistiques `src/data/stats.ts`
 ```ts
