@@ -165,5 +165,3 @@ Toutes les images (projets, équipe) sont actuellement des liens vers Unsplash. 
 ## 🌓 Thème sombre / clair et langue FR/EN
 
 Ces deux fonctionnalités (bouton lune/soleil et bouton FR/EN, en bas à droite de l'écran) fonctionnent automatiquement vous n'avez rien à configurer. Elles se basent uniquement sur les textes que vous éditez dans `src/i18n.ts` pour le contenu en anglais.
-
----
