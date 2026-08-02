@@ -36,7 +36,6 @@ export const SITE = {
   copyright: 'Tous droits réservés.'
 };
 ```
-Changez simplement le texte entre guillemets.
 
 ### 2. Textes traduits (FR/EN) `src/i18n.ts`
 Le site gère deux langues. Chaque texte existe **deux fois** : une fois sous `fr:` et une fois sous `en:`. Si vous changez un texte en français, pensez à mettre à jour la version anglaise juste en dessous (bloc `en:`), sinon le site affichera l'ancien texte anglais.
