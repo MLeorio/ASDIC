@@ -123,7 +123,6 @@ export const CONTACT = {
   email: 'asdic.asso@gmail.com'
 };
 ```
-- `phones` est une liste : ajoutez ou retirez des numéros entre `[` et `]`, séparés par des virgules.
 
 ### 8. Réseaux sociaux + liens du footer `src/data/navigation.ts`
 ```ts
@@ -168,10 +167,3 @@ Toutes les images (projets, équipe) sont actuellement des liens vers Unsplash. 
 Ces deux fonctionnalités (bouton lune/soleil et bouton FR/EN, en bas à droite de l'écran) fonctionnent automatiquement vous n'avez rien à configurer. Elles se basent uniquement sur les textes que vous éditez dans `src/i18n.ts` pour le contenu en anglais.
 
 ---
-
-## ✅ Après une modification
-
-Après avoir modifié un fichier dans `src/data/` (ou `src/i18n.ts`), sauvegardez simplement le fichier. Si le site tourne en local (`bun run dev`), les changements apparaissent automatiquement dans le navigateur. Pour publier le site, relancez :
-```bash
-bun run build
-```
