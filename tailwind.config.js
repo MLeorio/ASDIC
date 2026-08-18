@@ -5,14 +5,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        forest: 'rgb(var(--color-bg-dark) / <alpha-value>)',
-        ink: 'rgb(var(--color-text-dark) / <alpha-value>)',
+        forest: 'rgb(var(--color-forest) / <alpha-value>)',
         emerald: 'rgb(var(--color-primary) / <alpha-value>)',
         gold: 'rgb(var(--color-secondary) / <alpha-value>)',
         teal: 'rgb(var(--color-accent) / <alpha-value>)',
-        cream: 'rgb(var(--color-bg-light) / <alpha-value>)',
         noir: 'rgb(var(--color-noir) / <alpha-value>)',
         'noir-surface': 'rgb(var(--color-noir-surface) / <alpha-value>)',
+        heading: 'rgb(var(--color-text-heading) / <alpha-value>)',
+        body: 'rgb(var(--color-text-body) / <alpha-value>)',
+        surface: 'rgb(var(--color-surface-page) / <alpha-value>)',
+        'surface-card': 'rgb(var(--color-surface-card) / <alpha-value>)',
+        edge: 'rgb(var(--color-border) / <alpha-value>)',
+        'on-accent': 'rgb(var(--color-on-accent) / <alpha-value>)',
       },
       fontFamily: {
         display: ['Fraunces', 'Georgia', 'serif'],

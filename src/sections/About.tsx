@@ -10,15 +10,15 @@ interface AboutProps {
 
 export default function About({ t }: AboutProps) {
   return (
-    <motion.section id={ANCHORS.about} className="section-padding bg-cream dark:bg-noir" {...fadeInUp}>
+    <motion.section id={ANCHORS.about} className="section-padding bg-surface" {...fadeInUp}>
       <div className="max-w-5xl mx-auto grid md:grid-cols-[auto,1fr] gap-10 items-start">
         <span className="eyebrow whitespace-nowrap">{t('aboutEyebrow')}</span>
         <ParallaxDrift strength={16}>
-          <h2 className="text-3xl md:text-5xl font-display font-semibold mb-8 text-forest dark:text-cream leading-tight">
+          <h2 className="text-3xl md:text-5xl font-display font-semibold mb-8 text-heading leading-tight">
             {t('aboutTitleA')}&nbsp;
             <span className="text-emerald">{t('aboutTitleB')}</span>
           </h2>
-          <p className="text-lg text-ink/70 dark:text-cream/60 leading-relaxed max-w-2xl">{t('aboutText')}</p>
+          <p className="text-lg text-body/70 leading-relaxed max-w-2xl">{t('aboutText')}</p>
         </ParallaxDrift>
       </div>
     </motion.section>

@@ -33,7 +33,7 @@ export default function Counter({ to, suffix = '' }: CounterProps) {
       duration: 1.8,
       ease: EASE,
       onUpdate: (v) => {
-        if (ref.current) ref.current.textContent = Math.round(v).toLocaleString('fr-FR') + suffix;
+        if (ref.current) ref.current.textContent = Math.round(v).toLocaleString(document.documentElement.lang || 'fr-FR') + suffix;
       }
     });
     return () => controls.stop();

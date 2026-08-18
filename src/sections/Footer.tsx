@@ -35,7 +35,7 @@ export default function Footer({ t }: FooterProps) {
                   key={social.label}
                   href={social.href}
                   aria-label={social.label}
-                  className="w-10 h-10 rounded-full border border-white/15 flex items-center justify-center hover:bg-gold hover:text-ink hover:border-gold transition-all duration-300"
+                  className="w-10 h-10 rounded-full border border-white/15 flex items-center justify-center hover:bg-gold hover:text-on-accent hover:border-gold transition-all duration-300"
                 >
                   <social.icon className="w-4 h-4" />
                 </a>

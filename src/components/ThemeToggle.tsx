@@ -1,18 +1,20 @@
 import { motion } from 'framer-motion';
 import { Moon, Sun } from 'lucide-react';
 import { EASE } from '../lib/motion';
+import type { TranslationKey } from '../i18n';
 
 interface ThemeToggleProps {
   dark: boolean;
   toggle: () => void;
+  t: (key: TranslationKey) => string;
 }
 
-export default function ThemeToggle({ dark, toggle }: ThemeToggleProps) {
+export default function ThemeToggle({ dark, toggle, t }: ThemeToggleProps) {
   return (
     <motion.button
       onClick={toggle}
       whileTap={{ scale: 0.9 }}
-      aria-label="Basculer le thème sombre"
+      aria-label={dark ? t('themeToLight') : t('themeToDark')}
       className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-forest dark:bg-emerald text-white
                  flex items-center justify-center border border-white/10
                  shadow-[0_2px_8px_-2px_rgba(6,40,30,0.4)]

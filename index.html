@@ -10,11 +10,22 @@
     />
     <meta name="theme-color" content="#06281E" />
 
+    <!-- Applique le thème sombre avant le premier rendu (évite le flash) -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('asdic-theme');
+          var dark = t ? t === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (dark) document.documentElement.classList.add('dark');
+        } catch (e) {}
+      })();
+    </script>
+
     <!-- Google Fonts : Fraunces (display) + Instrument Sans (body) + Space Mono -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..800&family=Instrument+Sans:ital,wght@0,400..700;1,400&family=Space+Mono:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;600;700&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Space+Mono:wght@400;700&display=swap"
       rel="stylesheet"
     />
 

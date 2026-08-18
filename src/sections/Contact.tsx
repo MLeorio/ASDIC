@@ -25,10 +25,10 @@ const contactRows = [
 
 export default function Contact({ t }: ContactProps) {
   return (
-    <motion.section id={ANCHORS.contact} className="section-padding bg-cream dark:bg-noir" {...fadeInUp}>
+    <motion.section id={ANCHORS.contact} className="section-padding bg-surface" {...fadeInUp}>
       <div className="max-w-5xl mx-auto">
         <span className="eyebrow">{t('contactEyebrow')}</span>
-        <h2 className="text-3xl md:text-5xl font-display font-semibold mt-3 mb-12 text-forest dark:text-cream">
+        <h2 className="text-3xl md:text-5xl font-display font-semibold mt-3 mb-12 text-heading">
           {t('contactTitle')}
         </h2>
         <div className="grid md:grid-cols-2 gap-12">
@@ -40,12 +40,12 @@ export default function Contact({ t }: ContactProps) {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className="flex items-center gap-4 p-4 rounded-xl bg-white dark:bg-noir-surface border border-ink/5 dark:border-white/10"
+                className="flex items-center gap-4 p-4 rounded-xl bg-surface-card border border-edge/10"
               >
                 <div className="w-10 h-10 shrink-0 rounded-full bg-emerald/10 flex items-center justify-center">
                   <row.icon className="w-5 h-5 text-emerald" />
                 </div>
-                <span className="text-ink/70 dark:text-cream/60">{row.content}</span>
+                <span className="text-body/70">{row.content}</span>
               </motion.div>
             ))}
           </div>

@@ -18,23 +18,21 @@ function App() {
   const { lang, setLang, t } = useLang();
 
   return (
-    <div className={dark ? 'dark' : ''}>
-      <div className="overflow-x-hidden bg-cream dark:bg-noir text-ink dark:text-cream transition-colors duration-500">
-        <ScrollProgress />
-        <DotNav />
-        <LangToggle lang={lang} setLang={setLang} />
-        <ThemeToggle dark={dark} toggle={toggle} />
-        <main>
-          <Hero t={t} />
-          <StatsStrip />
-          <About t={t} />
-          <Timeline t={t} />
-          <Projects t={t} />
-          <Team t={t} />
-          <Contact t={t} />
-        </main>
-        <Footer t={t} />
-      </div>
+    <div className="overflow-x-hidden bg-surface text-body transition-colors duration-500">
+      <ScrollProgress />
+      <DotNav />
+      <LangToggle lang={lang} setLang={setLang} />
+      <ThemeToggle dark={dark} toggle={toggle} t={t} />
+      <main>
+        <Hero t={t} />
+        <StatsStrip />
+        <About t={t} />
+        <Timeline t={t} />
+        <Projects t={t} />
+        <Team t={t} />
+        <Contact t={t} />
+      </main>
+      <Footer t={t} />
     </div>
   );
 }

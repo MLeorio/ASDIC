@@ -18,7 +18,7 @@ export default function LangToggle({ lang, setLang }: LangToggleProps) {
           aria-label={`Switch to ${label}`}
           className={`px-3 py-1.5 text-xs font-mono font-semibold transition-colors duration-300 ${
             lang === code
-              ? 'bg-gold text-ink'
+              ? 'bg-gold text-on-accent'
               : 'text-white/70 hover:text-white hover:bg-white/10'
           }`}
         >

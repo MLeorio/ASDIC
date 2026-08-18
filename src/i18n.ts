@@ -34,6 +34,8 @@ export const translations = {
     footerLinks: 'Liens rapides',
     footerFollow: 'Suivez-nous',
     footerRights: 'Tous droits réservés.',
+    themeToLight: 'Passer en thème clair',
+    themeToDark: 'Passer en thème sombre',
     navAbout: 'À propos',
     navProjects: 'Projets',
     navContact: 'Contact'
@@ -66,6 +68,8 @@ export const translations = {
     footerLinks: 'Quick links',
     footerFollow: 'Follow us',
     footerRights: 'All rights reserved.',
+    themeToLight: 'Switch to light theme',
+    themeToDark: 'Switch to dark theme',
     navAbout: 'About',
     navProjects: 'Projects',
     navContact: 'Contact'
