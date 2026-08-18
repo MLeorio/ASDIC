@@ -66,16 +66,16 @@ export default function Timeline({ t }: TimelineProps) {
                 <div
                   className={`absolute -left-12 md:top-1/2 md:-translate-y-1/2 ${
                     index % 2 === 0 ? 'md:-right-12 md:left-auto' : 'md:-left-12'
-                  } top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-surface border-2 ${
+                  } top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-surface-card border-2 ${
                     accent === 'emerald' ? 'border-emerald' : accent === 'gold' ? 'border-gold' : 'border-teal'
                   } flex items-center justify-center z-10`}
                 >
                   <Icon className={`w-4 h-4 ${accentText[accent]}`} />
                 </div>
                 <motion.div
-                  whileHover={{ y: -4 }}
+                  whileHover={{ y: -2 }}
                   transition={{ duration: 0.25 }}
-                  className={`group flex gap-5 items-start bg-surface p-6 md:p-7 rounded-2xl
+                  className={`group flex gap-5 items-start bg-surface p-6 md:p-7 rounded-2xl timeline-cut
                               ${accentBorder[accent]} transition-colors duration-300`}
                 >
                   <div

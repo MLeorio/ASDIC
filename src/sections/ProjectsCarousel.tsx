@@ -32,14 +32,14 @@ export default function ProjectsCarousel({ t }: ProjectsCarouselProps) {
             <SwiperSlide key={index} className="h-auto">
               <div className="project-card group">
                 <div className="relative h-48 shrink-0 overflow-hidden">
-                  <SmartImage src={project.image} alt={project.title} className="group-hover:scale-110" />
+                  <SmartImage src={project.image} alt={project.title} className="group-hover:scale-125" />
                   <div className="absolute inset-0 bg-gradient-to-t from-forest/70 via-transparent to-transparent" />
                   <span className="absolute top-4 left-4 font-mono text-[10px] tracking-widest uppercase bg-gold text-on-accent px-2.5 py-1 rounded-full">
                     {project.cost}
                   </span>
                 </div>
                 <div className="flex flex-1 flex-col p-6">
-                  <h3 className="mb-2 text-xl font-display font-semibold text-heading">
+                  <h3 className="mb-2 text-xl font-display font-semibold text-heading transition-colors duration-300 group-hover:text-emerald">
                     {project.title}
                   </h3>
                   <p
