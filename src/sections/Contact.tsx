@@ -40,7 +40,7 @@ export default function Contact({ t }: ContactProps) {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className="flex items-center gap-4 p-4 rounded-xl bg-surface-card"
+                className="flex items-center gap-4 p-4 rounded-xl bg-surface-card timeline-cut"
               >
                 <div className="w-10 h-10 shrink-0 rounded-full bg-emerald/10 flex items-center justify-center">
                   <row.icon className="w-5 h-5 text-emerald" />
