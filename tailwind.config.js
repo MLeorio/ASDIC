@@ -2,6 +2,13 @@
 export default {
   darkMode: 'class',
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  safelist: [
+    'swiper',
+    'swiper-slide',
+    'swiper-wrapper',
+    'swiper-pagination-bullet',
+    'swiper-pagination-bullet-active',
+  ],
   theme: {
     extend: {
       colors: {

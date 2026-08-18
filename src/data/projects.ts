@@ -28,5 +28,13 @@ export const PROJECTS: Project[] = [
     cost: '200,000€',
     progress: 25,
     image: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=800&q=75'
+  },
+  {
+    title: 'Campagne de sensibilisation',
+    description:
+      "Organisation d'ateliers de sensibilisation à la paix et à la bonne gouvernance dans les communautés rurales, en partenariat avec les autorités locales et les associations de jeunes.",
+    cost: '50,000€',
+    progress: 15,
+    image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=75'
   }
 ];

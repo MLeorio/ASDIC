@@ -36,6 +36,8 @@ export const translations = {
     footerRights: 'Tous droits réservés.',
     themeToLight: 'Passer en thème clair',
     themeToDark: 'Passer en thème sombre',
+    prevProject: 'Projet précédent',
+    nextProject: 'Projet suivant',
     navAbout: 'À propos',
     navProjects: 'Projets',
     navContact: 'Contact'
@@ -70,6 +72,8 @@ export const translations = {
     footerRights: 'All rights reserved.',
     themeToLight: 'Switch to light theme',
     themeToDark: 'Switch to dark theme',
+    prevProject: 'Previous project',
+    nextProject: 'Next project',
     navAbout: 'About',
     navProjects: 'Projects',
     navContact: 'Contact'
