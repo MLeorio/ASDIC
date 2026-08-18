@@ -8,14 +8,14 @@ import 'swiper/css/pagination';
 
 export default function TeamCarousel() {
   return (
-    <Swiper modules={[Pagination]} {...CAROUSEL} className="pb-14 max-w-6xl mx-auto">
+    <Swiper modules={[Pagination]} {...CAROUSEL} className="!pb-14 max-w-6xl mx-auto">
       {TEAM.map((promoter, index) => (
         <SwiperSlide key={index} className="h-auto">
           {/* Pas de déplacement au survol : le Swiper couperait le haut de la carte.
               L'effet passe par le fond, la bordure, l'anneau et le zoom photo. */}
           <div
-            className="group h-full rounded-2xl border border-white/10 bg-white/5 p-8 text-center
-                       transition-all duration-300 hover:border-emerald/40 hover:bg-white/10"
+            className="group h-full rounded-2xl bg-white/5 p-8 text-center
+                       transition-all duration-300 hover:bg-white/10"
           >
             <div className="mx-auto mb-5 h-28 w-28 overflow-hidden rounded-full ring-2 ring-gold/50 transition-all duration-300 group-hover:ring-gold">
               <SmartImage src={promoter.image} alt={promoter.name} className="group-hover:scale-110" />

@@ -75,7 +75,7 @@ export default function Timeline({ t }: TimelineProps) {
                 <motion.div
                   whileHover={{ y: -4 }}
                   transition={{ duration: 0.25 }}
-                  className={`group flex gap-5 items-start bg-surface p-6 md:p-7 rounded-2xl border border-edge/10
+                  className={`group flex gap-5 items-start bg-surface p-6 md:p-7 rounded-2xl
                               ${accentBorder[accent]} transition-colors duration-300`}
                 >
                   <div

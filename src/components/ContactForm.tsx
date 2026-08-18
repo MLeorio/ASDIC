@@ -17,8 +17,8 @@ export default function ContactForm({ t }: ContactFormProps) {
   };
 
   const fieldClass =
-    'w-full px-4 py-3 border border-edge/10 rounded-xl bg-surface-card ' +
-    'text-body transition-all duration-200 focus:ring-2 focus:ring-emerald focus:border-transparent outline-none';
+    'w-full px-4 py-3 rounded-xl bg-surface-card ' +
+    'text-body transition-all duration-200 focus:ring-2 focus:ring-emerald outline-none';
 
   return (
     <form className="space-y-4" onSubmit={handleSubmit}>
